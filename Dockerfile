@@ -14,3 +14,4 @@ RUN git clone https://github.com/kiwiirc/kiwiirc.git
 WORKDIR /app/kiwiirc
 RUN yarn install
 RUN yarn run build
+
